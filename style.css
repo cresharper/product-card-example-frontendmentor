@@ -5,6 +5,7 @@ body {
 .product-preview-card {
     display: flex;
     max-width: 721px;
+    transform: translateY(45%);
     height: 413px;
     margin: 0 auto;
     overflow: hidden;
@@ -84,6 +85,9 @@ body {
         max-width: 400px;
         flex-direction: column;
         height: 100%;
+    }
+    .product-preview-card {
+        transform: translateY(0);
     }
     .product-preview-card__image {
         width: 100%;
